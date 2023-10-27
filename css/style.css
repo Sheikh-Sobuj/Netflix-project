@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: gray;
+}
+
+.banner-area {
+    background: linear-gradient(rgba(0, 0, 0.5), rgba(45, 45, 43, 0.5)),
+    url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-btn button {
+    background: #c51818;
+}
+
+.search-area input {
+    background: transparent;
+    width: 360px;
+    height: 60px;
+}
+
+input::placeholder {
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 10px;
+
+}
+
+.inner-btn button {
+    background: #c51818;
+    color: white;
+    width: 200px;
+    height: 60px;
+
+}
+
+/*----------top-area-------*/
+.logo img {
+    width: 150px;
+}
+
+.inner-top {
+    margin-top: 180px;
+}
+
+/*---------tv-show------*/
+.tv-show-area,
+.download-area,
+.watch-area,
+.footer-area{
+    background: #090808;
+    margin: 0 0.3px;
+}
+
+.tv-heading p {
+    font-size: 22px;
+}
+
+.tv-show {
+    position: relative;
+}
+
+.playing-adds {
+    position: absolute;
+}
+
+.playing-adds video {
+    width: 350px;
+    height: 200px;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 80px;
+}
+
+.tv-show img {
+    width: 380px;
+}
+
+.watch-desc {
+    padding: 100px 0;
+    margin-left: 160px;
+}
+
+.kids-profile {
+    background: black;
+}
+
+.kids-desc p {
+    font-size: 18px;
+}
+
+/*-----------FAQ------*/
+.accordion {
+    padding: 60px 0;
+    background: #000000;
+    color: #fff;
+}
+
+.heading h1{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.accordion-item {
+    background: #2D2D2D;
+    color: #fff;
+}
+
+p {
+    font-size: 16px;
+}
+.faq{
+    margin-top: 60px;
+}
+.contact{
+    margin-left: 80px;
+}
+
+a{
+    color: white;
+}
+.language{
+    width: 100px;
+    margin-left: 80px;
+}
+.form-select{
+    background: transparent;
+}
+
+.last-footer{
+    color: white;
+    margin-left: 80px;
+}
